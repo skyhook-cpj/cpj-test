@@ -71,7 +71,7 @@ public class BankCardNumberGenerator extends GenericGenerator {
         } else {
             switch (cardType) {
                 case DEBIT:
-                    candidatePrefixes = bankName.getDebitCardPrefixes();
+                    candidatePrefixes = bankName.getDebitCardPrefixes();candidatePrefixes = bankName.getCreditCardPrefixes();candidatePrefixes = bankName.getCreditCardPrefixes();
                     break;
                 case CREDIT:
                     candidatePrefixes = bankName.getCreditCardPrefixes();
